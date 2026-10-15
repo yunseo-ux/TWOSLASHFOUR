@@ -1,0 +1,26 @@
+.tutorials { padding:10cqw 5.1cqw 7.6cqw; border-bottom:.5px solid var(--color-accent); }
+.tutorials h2 { text-align:center; }
+.tutorial-for { display:flex; align-items:center; justify-content:center; gap:2.66cqw; }
+.tutorial-for img { width:13.02cqw; height:5.47cqw; }
+.tutorial-intro { font-size:1.875cqw; margin-top:13cqw; }
+.tutorial-intro .editorial { font-size:2.08cqw; }
+.tutorial-controls { display:flex; gap:20px; justify-content:flex-end; margin-block:20px; color:var(--color-accent); }
+.tutorial-controls button { font-size:24px; }
+.tutorial-controls { display:none; }
+.tutorial-track { overflow-y:hidden; margin-top:3cqw; scrollbar-width:none; }
+.tutorial-track::-webkit-scrollbar { display:none; }
+.tutorial-scroll-scene { width:100vw; margin-inline:calc((100% - 100vw) / 2); }
+.tutorial-track { display:flex; gap:var(--space-card); overflow-x:auto; scroll-snap-type:x mandatory; padding-bottom:20px; }
+.tutorial-card { flex:0 0 25cqw; scroll-snap-align:start; }
+.tutorial-card img { width:100%; aspect-ratio:480 / 355; object-fit:cover; }
+.tutorial-image-frame { overflow:hidden; }
+.tutorial-image-frame img { transition:transform .6s var(--motion-ease); }
+@media (hover:hover) and (pointer:fine) {
+ .tutorial-card:hover .tutorial-image-frame img { transform:scale(1.08); }
+}
+@media (prefers-reduced-motion:reduce) {
+ .tutorial-image-frame img { transition:none; }
+}
+.tutorial-card .copy { margin-top:1.56cqw; }
+.tutorial-card h3 { color:var(--color-accent); font-size:.94cqw; line-height:1.4; margin-top:.78cqw; }
+@media(max-width:700px) { .tutorials { padding:70px 20px 50px; } .tutorial-intro { font-size:16px; margin-top:40px; } .tutorial-intro .editorial { font-size:20px; } .tutorial-card { flex-basis:78vw; } .tutorial-card h3 { font-size:14px; margin-top:12px; } .tutorial-card .copy { margin-top:20px; } .tutorial-track { gap:20px; } }

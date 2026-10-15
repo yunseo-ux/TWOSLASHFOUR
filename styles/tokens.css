@@ -1,0 +1,20 @@
+:root {
+  --color-bg: #fff;
+  --color-text: #111111;
+  --color-accent: #4f6d8a;
+  --color-badge: #dfe6ed;
+  --color-muted: #343c47;
+  --font-display: "Archivo", Arial, sans-serif;
+  --font-body: "Mabry Pro", "Noto Sans KR", Arial, sans-serif;
+  --font-korean: "Noto Sans KR", "Malgun Gothic", sans-serif;
+  --font-editorial: "Mixta Ess Sharp", "Times New Roman", serif;
+  --font-navigation: "Archivo", Arial, sans-serif;
+  --tracking-korean: -0.025em;
+  --page-max: 1920px;
+  --page-gutter: 2.6cqw;
+  --space-card: 1.35cqw;
+  --size-display: 7.55cqw;
+  --size-title: 2.34cqw;
+  --size-body: 1.04cqw;
+  --line-body: 1.5;
+}

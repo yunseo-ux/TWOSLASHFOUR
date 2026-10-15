@@ -1,0 +1,36 @@
+@font-face {
+ font-family:"Archivo";
+ src:url("../assets/fonts/Archivo-Variable.ttf") format("truetype");
+ font-weight:100 900;
+ font-stretch:62% 125%;
+ font-style:normal;
+ font-display:swap;
+}
+@font-face {
+ font-family:"Mabry Pro";
+ src:url("../assets/fonts/MabryPro-Regular.ttf") format("truetype");
+ font-weight:400;
+ font-style:normal;
+ font-display:swap;
+}
+@font-face {
+ font-family:"Mixta Ess Sharp";
+ src:url("../assets/fonts/MixtaEssSharp-Italic.otf") format("opentype");
+ font-weight:400;
+ font-style:italic;
+ font-display:swap;
+}
+@font-face {
+ font-family:"Jam Grotesque";
+ src:local("Jam Grotesque Medium"),local("JamGrotesque-Medium"),local("FONTSPRING DEMO - Jam Grotesque Medium");
+ font-weight:500;
+ font-style:normal;
+ font-display:swap;
+}
+@font-face {
+ font-family:"Noto Sans KR";
+ src:url("../assets/fonts/NotoSansKR-Variable.ttf") format("truetype");
+ font-weight:100 900;
+ font-style:normal;
+ font-display:swap;
+}

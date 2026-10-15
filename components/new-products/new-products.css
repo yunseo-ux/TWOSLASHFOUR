@@ -1,0 +1,14 @@
+.manifesto { padding:6.4cqw 2.6cqw 16cqw; }
+.new-track { display:flex; overflow-x:auto; scroll-snap-type:x mandatory; }
+.new-slide { flex:0 0 100%; height:48.54cqw; padding:3.59cqw 1cqw 1.35cqw 2.6cqw; position:relative; scroll-snap-align:start; }
+.new-information { width:40cqw; position:relative; z-index:1; }
+.new-information .product-heading { width:57cqw; }
+.new-information .copy { margin-top:2.5cqw; max-width:38cqw; }
+.new-images { position:absolute; right:1cqw; bottom:1.35cqw; display:flex; gap:1.5cqw; align-items:flex-end; }
+.new-small { width:24.35cqw; height:28.83cqw; object-fit:cover; }.new-large { width:32.34cqw; height:42.96cqw; object-fit:cover; }
+.new-slide:nth-child(2) .new-small { align-self:flex-start; width:24.375cqw; height:29.427cqw; }
+.new-slide:nth-child(2) .new-large { width:30.469cqw; height:43.75cqw; }
+.new-slide:nth-child(3) .new-small { width:23.177cqw; height:29.427cqw; }
+.new-slide:nth-child(3) .new-large { width:32.396cqw; height:43.75cqw; }
+@media(max-width:700px) { .manifesto { padding:70px 20px; } .new-slide { height:auto; padding:20px; display:flex; flex-direction:column; gap:24px; } .new-information,.new-information .product-heading,.new-information .copy { width:auto; max-width:none; } .new-information .copy { margin-top:20px; } .new-images { position:static; gap:12px; } .new-small { width:42%; height:auto; } .new-large { width:55%; height:auto; } }
+@media(max-width:700px) { .new-slide:nth-child(n) .new-small { width:42%; height:auto; } .new-slide:nth-child(n) .new-large { width:55%; height:auto; } }
